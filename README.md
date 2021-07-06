@@ -236,6 +236,9 @@ So we need to pass uri to sticker look the refernce below
           />
 
 ```
+
+###### check-sticker
+
 here source props will convert uri to sticker if sticker uri is valid ... wait ! how can i check if it's valid or not 😰
 
 That's why our hero is here 🦸‍♂️ `AnimatedSticker.isSticker()` will help us!
