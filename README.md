@@ -438,7 +438,7 @@ AnimatedSticker.setExtraCategory([
 
 ```
 
-*| PROPS          | TYPE                                             | DES                                                                           |
+| PROPS          | TYPE                                             | DES                                                                           |
 |----------------|--------------------------------------------------|-------------------------------------------------------------------------------|
 | ***id***       | number must start from 101                       | is your unique id and it must start from 101,102.....                         |
 | ***value***    | String not space need to use _ instated of space |  is your category name                                                        |
@@ -446,6 +446,7 @@ AnimatedSticker.setExtraCategory([
 | ***file***     | Json file see below for reference                | is your json file uri that you will get from [Here](https://lottiefiles.com/) |
 | ***content***  | String / description                             |  is your category discerption                                                 |
 | ***username*** | String / username - creator name                 | username of creator most probarly it's you 😅                                 |
+
 
  
  **make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker**
