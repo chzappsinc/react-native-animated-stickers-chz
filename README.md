@@ -34,7 +34,7 @@ To work properly please link assets
 | ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
 
-# STEP 2 - Initialazing on App
+# STEP 2 - Initializing on App
 
 Let our keyboard want's know your app name and if you use external sticker1
 So you need initialize the project by :
