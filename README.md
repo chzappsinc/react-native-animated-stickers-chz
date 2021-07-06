@@ -228,7 +228,7 @@ Sticker View will help us ? sure ✋
 
 So we need to pass uri to sticker look the refernce below
 
-```
+```jsx
 <AnimatedStickerView
             stickerHeight={150} //--> sticker height
             stickerWidth={150} //--> sticker width
@@ -324,3 +324,128 @@ Here we used ternary operator which act like if else as ? :
 
 
 ## Other functions
+
+- #### [InitialApp](#IntialApp1)
+- #### [isSticker](#isSticker)
+- #### [getName](#getName)
+- #### [setExtraCategory](#setExtraCategory)
+- #### [setExtraEmojis](#setExtraEmojis)
+
+## IntialApp 1
+
+Let our keyboard want's to know your app name and also if you use external sticker
+So you need initialize the keyboard in App.js or on your initial screen
+
+```javascript
+import AnimatedSticker from 'react-native-animated-stickers-chz';
+
+ const StickerInit = {
+    app_name: 'MY SWEET APP', //--> Your app name that can tag on copyright text and many more place....
+    use_external: true, //--> false if your are not using custom sticker
+    }
+    
+ AnimatedSticker.InitialApp(StickerInit)
+
+```
+
+## isSticker
+
+Check if given uri is a valid sticker 
+
+example
+
+
+```js
+const renderItem = (data) => {
+    if (AnimatedSticker.isSticker(data.item.message)) {
+      return (<StickerView
+        source={data.item.message}
+      />
+      )
+    } else {
+      return (
+        <View>
+          <Text>Not a sticker</Text>
+        </View>
+      )
+    }
+  }
+
+```
+This a simple example here if message is a sticker Uri then it will render sticker else your data 
+
+You can do with another method
+
+```js
+
+ const renderItem = (data) => {
+    return (
+      AnimatedSticker.isSticker(data.item.message) ? <StickerView source={data.item.message} />
+        :
+        <View>
+          <Text>Not a sticker</Text>
+        </View>
+    )
+  }
+
+
+```
+
+## getName
+
+get name of sticker 
+
+example
+
+```js
+
+const p  = '@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims'
+
+if (AnimatedSticker.isSticker(p)) {
+      console.log('sticker' + AnimatedSticker.getName(p))
+    } else {
+      console.log('It\'s not a sticker!!')
+    }
+```
+
+## setExtraCategory 
+
+Cool you can create and upload your sticker 
+
+example 
+
+```
+AnimatedSticker.setExtraCategory([
+    {
+      id: 100,
+      value: 'robot_new_word',
+      url: true,
+      file: 'https://assets10.lottiefiles.com/packages/lf20_y8fx3fts.json',
+      content: 'Stickers are rebuilds by Chzapps india!',
+      username: 'Chzapps Sticker\'s'
+    },
+    {
+      id: 101,
+      value: 'again_menu',
+      url: true,
+      file: 'https://assets7.lottiefiles.com/animated_stickers/lf_tgs_utvjcw5v.json',
+      content: 'Stickers are rebuilds by Chzapps india!',
+      username: 'Chzapps Sticker\'s'
+    },
+  ])
+
+```
+
+***id*** is your unique id and it must start from 101,102.....
+
+ ***value*** is your category name
+
+ ***url*** set it to url else file will not load 🩹
+ 
+ ***file*** is your json file uri that you will get from [Here](https://lottiefiles.com/)
+ 
+ make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker
+ 
+ ***content*** is your category descerption 
+ 
+ ***username*** username of creator most probarly it's you 😅
