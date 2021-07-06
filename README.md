@@ -1,7 +1,7 @@
 # CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
 
-__It's under Beta___
+<span style="color: green">This dependency is under BETA</span>
 
 | :warning: **WARNING** : Please follow all step's for proper install! |
 | --- |
