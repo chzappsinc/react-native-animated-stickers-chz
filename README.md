@@ -143,7 +143,7 @@ Here we placed a view with flex 1 on top of keyboard so that View ajust size on 
 
 we use state for visibility of keyboard 
 
-#### onBackPress
+### onBackPress
 
 So when user press back while keyboard is shown , We want to tell keyboard what to do onBackPress
 
@@ -165,6 +165,13 @@ This props ``onBackPress`` will help us Hurr! 👁️‍🗨️
 Here ``if(vis)`` will check if keyboard is visible or not
 
 **_function work like if keyboard is visible or keyboard back press then update state to flase else do other think on backPress_**
+
+### onSend ⚠️ read carefully
+
+When user click or swipe a stciker it need to updated in your chat or state!
+so this props ``ònSend`` will help us , this is a callbackFunction <'''ref'>
+
+
 
 ## Sticker View
 
