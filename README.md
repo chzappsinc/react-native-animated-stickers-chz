@@ -457,3 +457,6 @@ AnimatedSticker.setExtraCategory([
  In the below marked with red is resulation on animation and it's okay beacuse its 512x512 but yellow marked have good size but have 30 layer's it may take delay to render (may be)
 
 <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/check_resultion.png' width='400' alt='GET RES'/>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets2.lottiefiles.com/animated_stickers/lf_tgs_bpn9bnbu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
