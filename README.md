@@ -85,11 +85,10 @@ so place the sticker keyboard on bottom , View chart for refernce
   │  YOUR STYLE                     │
   └──────────────┬──────────────────┘
                  │
-          ┌──────┴─────┐
-          ▼            ▼
-┌──────────────┐    ┌───────────────────┐
-│OTHER VIEW    │    │ KEYBOARD BOTTOM   │
-└──────────────┘    └───────────────────┘
+                 ▼            
+        ┌───────────────────┐
+        │ KEYBOARD BOTTOM   │
+        └───────────────────┘
 ```
 
 **I know that you didn't get anything 😄 Check the code below for more!!**
@@ -205,8 +204,6 @@ setMessageState([...messageState , {id : 100 , message : message}])
 | placeHolderColor | No / Color of before sticker render               | String / color         | placeHolderColor={'#00000010'}                     |
 | textFont         | No / Replace font                                 | FontFamily             | textFont={'MyFontName'}                            |
 | onDo             | Deprecated                                        | Deprecated             | Deprecated                                         |
-
-
 
 
 ## Sticker View
