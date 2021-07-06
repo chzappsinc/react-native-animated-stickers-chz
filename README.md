@@ -415,7 +415,7 @@ Cool you can create and upload your sticker
 
 example 
 
-```json
+```js
 AnimatedSticker.setExtraCategory([
     {
       id: 101,
@@ -454,7 +454,7 @@ set extra emojis
 
 example : 
 
-```json
+```js
 
  AnimatedSticker.setExtraEmojis([
     {
