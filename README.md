@@ -1,7 +1,7 @@
 # CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
 
-| **WARNING** : Please follow all step's for proper install! |
+| :warning: **WARNING** : Please follow all step's for proper install! |
 | --- |
 
 ## STEP 1 - install these dependencies
@@ -36,5 +36,5 @@ yarn  react-native link react-native-animated-stickers-chz
 To link assets with project
 
 ```
-| ℹ️ :**INFO** : Run your projects to link these dependencies else error with show! |
+| ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
