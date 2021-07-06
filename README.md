@@ -325,7 +325,7 @@ Here we used ternary operator which act like if else as ? :
 
 ## Other functions
 
-- #### [InitialApp](#IntialApp1)
+- #### [InitialApp](#IntialApp-1)
 - #### [isSticker](#isSticker)
 - #### [getName](#getName)
 - #### [setExtraCategory](#setExtraCategory)
