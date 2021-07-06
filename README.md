@@ -76,12 +76,10 @@ so place the sticker keyboard on bottom , View chart for refernce
 
 | Main View with style flex 1  |
 | :------------- |
-            |
-            |
+        |
 | Second View inside Main view with flex 1  |
 | :------------- |
-            |
-            |
+        |
 | Keybaord View at bottom of second View  |
 | :------------- |
 
