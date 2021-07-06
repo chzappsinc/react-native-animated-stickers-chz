@@ -62,4 +62,4 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 # Let's animate your chat 🤟
 
-- [Sticker Keyboard](!sticker-keyboard)
+- [Sticker Keyboard](sticker-keyboard)
