@@ -447,8 +447,69 @@ AnimatedSticker.setExtraCategory([
 | ***content***  | String / description                             |  is your category discerption                                                 |
 | ***username*** | String / username - creator name                 | username of creator most probarly it's you 😅                                 |
 
+see refernce for animation size and types [#ref](#anim-ref)
 
- **make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker**
+## setExtraEmojis
+
+set extra emojis
+
+example : 
+
+```
+
+ AnimatedSticker.setExtraEmojis([
+    {
+      id: 3001,
+      name: "tow_lee",
+      cat: "robot_new_word",
+      url: "https://assets2.lottiefiles.com/animated_stickers/lf_tgs_RQdYhC.json",
+      credit: "Sticker by Towelie",
+      profile: 'http://github.com/chzappsinc',
+      social_type: 'github'
+    },
+    {
+      id: 3002,
+      name: "its_me_bull",
+      cat: "again_menu",
+      url: "https://assets10.lottiefiles.com/private_files/lf30_mdazblit.json",
+      credit: "Sticker by Towelie",
+      profile: 'https://in.linkedin.com/in/muhammed-jasim-t-k-4aaa4916a',
+      social_type: 'linkedin'
+    },
+    {
+      id: 3003,
+      name: "_my_robo_ohho",
+      dark: true,
+      cat: "again_menu",
+      url: "https://assets10.lottiefiles.com/packages/lf20_y8fx3fts.json",
+      credit: "Sticker by Towelie",
+      profile: 'http://instagram.com/chzappsinc',
+      social_type: 'whatsapp'
+    }
+  ])
+
+```
+
+| PROPS             | TYPE                                                         | DES                                                                                             |
+|-------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| ***id***          | number must start from 101                                   | is your unique id and it must start from 101,102.....                                           |
+| ***name***        | String not space need to use _ instated of space             |  is your sticker name                                                                           |
+| ***url***         | Boolean always set it to true                                | set it to url else file will not load 🩹                                                        |
+| ***dark***        | Boolean                                                      | Set true if sticker have dark content , it help to make visible dark content in dark backgrounf |
+| ***cat***         | String / name of category                                    | In which category sticker should show                                                           |
+| ***credit***      | String / username - creator name                             | username of creator most probarly it's you 😅                                                   |
+| ***profile***     | Url / String                                                 | url of your socail media or website                                                             |
+| ***social_type*** | String / instagram,whatsapp,facebook,github,twitter,linkedin | icon type of follow button                                                                      |
+
+
+
+------------------
+
+# Anim Ref
+
+***Dont use space in sticker name or category name use _ ***
+
+ **make sure that file size is not more then 100KB , Resolution: >= 512x512 if its not 512x512 keyboard may crash please always check your sticker**
  
  Here take this as refernce : [animation](https://lottiefiles.com/59642-indian-premier-league-ipl) here when you scroll down you can see 
  
@@ -458,5 +519,3 @@ AnimatedSticker.setExtraCategory([
 
 <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/check_resultion.png' width='400' alt='GET RES'/>
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"/>
-<lottie-player src="https://assets2.lottiefiles.com/animated_stickers/lf_tgs_bpn9bnbu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
