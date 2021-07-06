@@ -16,7 +16,7 @@ Animated sticker keyboard for react-native with customizable sticker's
 |⚠️**WARNING** : Please follow all step's for proper install! |
 | --- |
 
-| ℹ️**INFO** : Files may take sometime to render beacuse to avoid download everytime , we are using cache sytem and we will fix issue on up coming versions|
+| ℹ️**INFO** : Files may take sometime to render beacuse to avoid download everytime , we are using cache sytem and we will fix issue on up coming versions , This issue is not for all devices please submit an issue if you face any|
 | --- |
 
 
