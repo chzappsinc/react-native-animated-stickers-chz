@@ -45,6 +45,7 @@ To work properly please link assets
 
 | ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
+-----------------------------
 
 # STEP 2 - Initializing on App
 
@@ -66,6 +67,8 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 # Let's animate your chat 🤟 by chz sticker keybaord
 
+--------------------------------------
+
 
 - [Import Dep](#import)
 - [Sticker Keyboard](#sticker-keyboard)
@@ -84,11 +87,13 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 # Import
 
-```
+```js
 import AnimatedSticker from 'react-native-animated-stickers-chz';
 import AnimatedStickerKeyboard from 'react-native-animated-stickers-chz/AnimatedKeyBoard'
 import AnimatedStickerView from 'react-native-animated-stickers-chz/AnimatedStickerView';
 ```
+--------------------------------
+
 
 ## Sticker Keyboard 
 
@@ -237,6 +242,8 @@ setMessageState([...messageState , {id : 100 , message : message}])
 | textFont         | No / Replace font                                 | FontFamily             | textFont={'MyFontName'}                            |
 | onDo             | Deprecated                                        | Deprecated             | Deprecated                                         |
 
+-----------------------------------------
+
 
 ## Sticker View
 
@@ -279,6 +286,9 @@ if (AnimatedSticker.isSticker(p)) {
 ```
 
 you need to **import** AnimatedSticker like : ``import AnimatedSticker from 'react-native-animated-stickers-chz'``
+
+-------------------------------------------------------
+
 
 ## Sticker View on chat
 
@@ -343,6 +353,7 @@ Here we used ternary operator which act like if else as ? :
 | source        | Yes / Sticker uri                                         | chzapps type URI | source={'@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims'} |
 
 
+------------------------------------------------------------------
 
 ## Other functions
 
@@ -351,6 +362,9 @@ Here we used ternary operator which act like if else as ? :
 - #### [getName](#getname-1)
 - #### [setExtraCategory](#setextracategory-1)
 - #### [setExtraEmojis](#setExtraEmojis-1)
+
+
+-------------------------------------
 
 ## IntialApp 1
 
@@ -368,6 +382,9 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
  AnimatedSticker.InitialApp(StickerInit)
 
 ```
+
+--------------------------------------
+
 
 ## isSticker
 
@@ -412,6 +429,8 @@ You can do with another method
 
 ```
 
+--------------------------------------------------
+
 ## getName
 
 get name of sticker 
@@ -429,9 +448,14 @@ if (AnimatedSticker.isSticker(p)) {
     }
 ```
 
+----------------------------------------------
+
+
 ## setExtraCategory 
 
 Cool you can create and upload your sticker 
+
+see refernce for animation size and types [#ref](#anim-ref)
 
 example 
 
@@ -468,9 +492,13 @@ AnimatedSticker.setExtraCategory([
 
 see refernce for animation size and types [#ref](#anim-ref)
 
+-----------------------------------------------------------------------
+
 ## setExtraEmojis
 
 set extra emojis
+
+see refernce for animation size and types [#ref](#anim-ref)
 
 example : 
 
@@ -540,10 +568,13 @@ files from [here](https://lottiefiles.com/)
 
 <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/check_resultion.png' width='400' alt='GET RES'/>
 
+----------------------------------------------------------------
+
+
 # Donate us
 
 ## Why to donate 
 
 Currently we are working on windows and we cant test on ios , we are making somany awsome free library for user!
 
-[Donate any amount](https://paypal.me/chzapps?locale.x=en_GB)
+[Donate any amount](https://paypal.me/chzapps)
