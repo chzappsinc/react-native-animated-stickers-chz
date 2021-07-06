@@ -180,23 +180,25 @@ const sendMessage = (message) =>{
 setMessageState([...messageState , {id : 100 , message : message}])
 }
 
-here we got message from our call back function!
+// here we got message from our call back function props onSend
 
 <AnimatedStickerKeyboard
-<!--         textButtonColor={'#000'}
-        infoText={false}
-        visibility={vis} -->
+        //Other props 
         onSend={(uri) => { sendMessage(uri) }}
-<!--         keyBoardStyle={{ backgroundColor: '#fff' }}
-        menuButtonStyle={{ backgroundColor: '#00000010' }}
-        onBackPress={() => { handleBackButtonClick() }}
-        textColor={'black'}
-        hideDes={false}
-        hideFooter={true}
-        placeHolderColor={'#00000010'} -->
       />
 
 ```
+### PROPS
+
+| PROPS NAME      | REQUIRED / USAGE                                 | TYPE                   | EXAMPLE                                            |
+|-----------------|--------------------------------------------------|------------------------|----------------------------------------------------|
+| textButtonColor | No / For Category button color                   | String / color         | textButtonColor={'#000'}                           |
+| infoText        | No / show info of Category [depericiated]        | Boolean                | infoText={false}                                   |
+| visibility      | Yes / show & hide of keyboard                    | Boolean                | visibility={true}                                  |
+| onSend          | Yes / get Uri and data of sticker                | callback function      | onSend={(uri,data) => { console.log(uri,data)}}    |
+| keyBoardStyle   | No / set style of keyboard like background color | ViewStyleProp / styles | keyBoardStyle={{ backgroundColor: '#fff' }}        |
+| menuButtonStyle | Category menu button style                       | ViewStyleProp / styles | menuButtonStyle={{ backgroundColor: '#00000010' }} |
+
 
 
 ## Sticker View
