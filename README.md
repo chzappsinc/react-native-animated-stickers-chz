@@ -169,8 +169,34 @@ Here ``if(vis)`` will check if keyboard is visible or not
 ### onSend ⚠️ read carefully
 
 When user click or swipe a stciker it need to updated in your chat or state!
-so this props ``ònSend`` will help us , this is a callbackFunction <'''ref'>
+so this props ``ònSend`` will help us , this is a callbackFunction [More about callback function](url.com/NUj9tF)
 
+**Here is an example **
+
+here i will send message to state with arrow function
+
+```js
+const sendMessage = (message) =>{
+setMessageState([...messageState , {id : 100 , message : message}])
+}
+
+here we got message from our call back function!
+
+<AnimatedStickerKeyboard
+<!--         textButtonColor={'#000'}
+        infoText={false}
+        visibility={vis} -->
+        onSend={(uri) => { sendMessage(uri) }}
+<!--         keyBoardStyle={{ backgroundColor: '#fff' }}
+        menuButtonStyle={{ backgroundColor: '#00000010' }}
+        onBackPress={() => { handleBackButtonClick() }}
+        textColor={'black'}
+        hideDes={false}
+        hideFooter={true}
+        placeHolderColor={'#00000010'} -->
+      />
+
+```
 
 
 ## Sticker View
