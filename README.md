@@ -69,6 +69,12 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 - [Sticker View on Chat](#sticker-view-on-chat)
 - [Check if it is valid sticker](#check-sticker)
 - [Other functions / Methods ](#other-functions) 
+- [Intialize app](#IntialApp-1)
+- [is it a stciker method](!#issticker-1)
+- [get Name of sticker](!#getname-1)
+- [add your custom catogery 💌](#setextracategory-1)
+- [add your custom Sticker 🌼](#setextraemojis-1)
+- [Create custom sticker refernce](#anim-ref)
 
 ## Sticker Keyboard 
 
@@ -491,7 +497,7 @@ example :
 
 | PROPS             | TYPE                                                         | DES                                                                                             |
 |-------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| ***id***          | number must start from 101                                   | is your unique id and it must start from 101,102.....                                           |
+| ***id***          | number must start from 101                                   | is your unique id and it must start from 3001,3002,3003,3004.....                                           |
 | ***name***        | String not space need to use _ instated of space             |  is your sticker name                                                                           |
 | ***url***         | Boolean always set it to true                                | set it to url else file will not load 🩹                                                        |
 | ***dark***        | Boolean                                                      | Set true if sticker have dark content , it help to make visible dark content in dark backgrounf |
@@ -505,6 +511,8 @@ example :
 ------------------
 
 # Anim Ref
+
+files from [here](https://lottiefiles.com/)
 
 ***Dont use space in sticker name or category name use _***
 
