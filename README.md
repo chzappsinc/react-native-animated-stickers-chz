@@ -74,6 +74,7 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 Sticker Keyboard need proper space to view 
 so place the sticker keyboard on bottom , View chart for refernce
 
+```
  ┌───────────────────────────────────┐
  │MAIN VIEW WITH FLEX 1 AND OTHER    │
  │STYLES                             │
@@ -89,6 +90,7 @@ so place the sticker keyboard on bottom , View chart for refernce
 ┌──────────────┐    ┌─────────────┐
 │OTHER VIEW    │    │ KEYBOARD    │
 └──────────────┘    └─────────────┘
+```
 
 ## Sticker View
 
