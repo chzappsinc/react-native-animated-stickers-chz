@@ -215,6 +215,92 @@ setMessageState([...messageState , {id : 100 , message : message}])
 
 Haha we succefully send sticker and we get uri which looks like `@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims`
 
+Now we need to render sticker based on uri!
+
+Sticker View will help us ? sure ✋
+
+So we need to pass uri to sticker look the refernce below
+
+```
+<AnimatedStickerView
+            stickerHeight={150} //--> sticker height
+            stickerWidth={150} //--> sticker width
+            source={'@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims'} //--> uri that we get from keyboard
+          />
+
+```
+here source props will convert if sticker uri is valid ... wait ! how can i check if it's valid or not 😰
+
+That's why our hero is here 🦸‍♂️ `AnimatedSticker.isSticker()` will help us!
+
+example
+
+```js
+
+const p = '@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims'
+if (AnimatedSticker.isSticker(p)) {
+      console.log('sticker' + AnimatedSticker.getName(p))
+    } else {
+      console.log('It\'s not a sticker!!')
+      setVim()
+    }
+
+```
+
+you need to **import** AnimatedSticker like : ``import AnimatedSticker from 'react-native-animated-stickers-chz'``
+
 ## Sticker View on chat
+
+**Now implement sticker view on chet  **
+
+|⚠️**WARNING** : Please Read carefully! |
+| --- |
+
+- You need to send message uri without any space and other char
+- Check if it is a valid sticker !
+
+Here is an simple example
+
+I have a flatlist and my renderItem is `` renderItem={data => renderItem(data)}``
+
+so my code will look like 
+
+```js
+const renderItem = (data) => {
+    if (AnimatedSticker.isSticker(data.item.message)) {
+      return (<StickerView
+        source={data.item.message}
+      />
+      )
+    } else {
+      return (
+        <View>
+          <Text>Not a sticker</Text>
+        </View>
+      )
+    }
+  }
+
+```
+This a simple example here if message is a sticker Uri then it will render sticker else your data 
+
+You can do with another method
+
+```js
+
+ const renderItem = (data) => {
+    return (
+      AnimatedSticker.isSticker(data.item.message) ? <StickerView source={data.item.message} />
+        :
+        <View>
+          <Text>Not a sticker</Text>
+        </View>
+    )
+  }
+
+
+```
+
+Here we used ternary operator which act like if else as ? : 
 
 ## Check Sticker
