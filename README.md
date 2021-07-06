@@ -137,7 +137,35 @@ return(
 export default App;
 
 ```
+**Let** me explain the whole code!
 
+Here we placed a view with flex 1 on top of keyboard so that View ajust size on keyboard hide/show
+
+we use state for visibility of keyboard 
+
+#### onBackPress
+
+So when user press back while keyboard is shown , We want to tell keyboard what to do onBackPress
+
+so here keyboard will hide normally , But our state is not updated it means keyboard will popup again 😧
+
+This props ``onBackPress`` will help us Hurr! 👁️‍🗨️
+
+```
+ const handleBackButtonClick = async () => {
+    if (vis) {
+      setVis(false)
+    } else {
+      BackHandler.exitApp()
+      //Other think when backPress on invisible keyboard
+      return true
+    }
+  }
+  
+```
+Here ``if(vis)`` will check if keyboard is visible or not
+
+function work like if keyboard is visible or keyboard back press then update state to flase else do other think on backPress
 
 ## Sticker View
 
