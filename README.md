@@ -22,15 +22,19 @@ yarn add lottie-ios
 
 ```
 yarn add react-native-animated-stickers-chz
-or
+
+OR
+
 npm install react-native-animated-stickers-chz
 
 npx react-native link react-native-animated-stickers-chz
-or
+
+OR
+
 yarn  react-native link react-native-animated-stickers-chz
 
 To link assets with project
 
 ```
-| :info:**INFO** : Run your projects to link these dependencies else error with show! |
+| ℹ️ :**INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
