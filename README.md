@@ -18,6 +18,11 @@ yarn add lottie-react-native
 yarn add lottie-ios
 
 ```
+If you are using this library for **IOS** then 
+go to ios folder by running ``` cd ios ``` on terminal of your project
+then run this command ```pod install```
+
+
 :cool: **Now it's time to download react-native-animated-stickers-chz**
 
 ```
