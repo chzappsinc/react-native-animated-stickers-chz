@@ -59,3 +59,7 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 ```
 😍 **Cool your app has been initialized**
+
+# Let's animate your chat 🤟
+
+- [Sticker Keyboard](!sticker-keyboard)
