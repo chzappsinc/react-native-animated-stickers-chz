@@ -451,6 +451,7 @@ AnimatedSticker.setExtraCategory([
  **make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker**
  
  Here take this as refernce : [animation](https://lottiefiles.com/59642-indian-premier-league-ipl) here when you scroll down you can see 
+ 
  <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/getLottieUrl.png' width='400' alt='GET URI'/>
  
 
