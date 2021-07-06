@@ -151,7 +151,7 @@ so here keyboard will hide normally , But our state is not updated it means keyb
 
 This props ``onBackPress`` will help us Hurr! 👁️‍🗨️
 
-```
+```js
  const handleBackButtonClick = async () => {
     if (vis) {
       setVis(false)
@@ -161,7 +161,6 @@ This props ``onBackPress`` will help us Hurr! 👁️‍🗨️
       return true
     }
   }
-  
 ```
 Here ``if(vis)`` will check if keyboard is visible or not
 
