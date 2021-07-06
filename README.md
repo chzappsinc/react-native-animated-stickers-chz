@@ -27,5 +27,9 @@ OR
 
 npm install react-native-animated-stickers-chz
 ```
+**Link assets** : ```npx react-native link react-native-animated-stickers-chz```
+
+To work properly please link assets
+
 | ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
