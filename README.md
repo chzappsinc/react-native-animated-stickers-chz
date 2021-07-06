@@ -229,6 +229,8 @@ Sticker View will help us ? sure ✋
 So we need to pass uri to sticker look the refernce below
 
 ```jsx
+import StickerView from 'react-native-animated-stickers-chz/AnimatedStickerView'
+
 <AnimatedStickerView
             stickerHeight={150} //--> sticker height
             stickerWidth={150} //--> sticker width
@@ -417,7 +419,7 @@ example
 ```
 AnimatedSticker.setExtraCategory([
     {
-      id: 100,
+      id: 101,
       value: 'robot_new_word',
       url: true,
       file: 'https://assets10.lottiefiles.com/packages/lf20_y8fx3fts.json',
@@ -425,7 +427,7 @@ AnimatedSticker.setExtraCategory([
       username: 'Chzapps Sticker\'s'
     },
     {
-      id: 101,
+      id: 102,
       value: 'again_menu',
       url: true,
       file: 'https://assets7.lottiefiles.com/animated_stickers/lf_tgs_utvjcw5v.json',
@@ -436,16 +438,16 @@ AnimatedSticker.setExtraCategory([
 
 ```
 
-***id*** is your unique id and it must start from 101,102.....
+*| PROPS          | TYPE                                             | DES                                                                           |
+|----------------|--------------------------------------------------|-------------------------------------------------------------------------------|
+| ***id***       | number must start from 101                       | is your unique id and it must start from 101,102.....                         |
+| ***value***    | String not space need to use _ instated of space |  is your category name                                                        |
+| ***url***      | Boolean always set it to true                    | set it to url else file will not load 🩹                                      |
+| ***file***     | Json file see below for reference                | is your json file uri that you will get from [Here](https://lottiefiles.com/) |
+| ***content***  | String / description                             |  is your category discerption                                                 |
+| ***username*** | String / username - creator name                 | username of creator most probarly it's you 😅                                 |
 
- ***value*** is your category name
+ 
+ **make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker**
+ 
 
- ***url*** set it to url else file will not load 🩹
- 
- ***file*** is your json file uri that you will get from [Here](https://lottiefiles.com/)
- 
- make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker
- 
- ***content*** is your category descerption 
- 
- ***username*** username of creator most probarly it's you 😅
