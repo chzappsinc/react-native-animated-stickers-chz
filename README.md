@@ -117,7 +117,7 @@ return(
  <View style={{ backgroundColor: 'white', flex: 1, justifyContent: 'center', alignItems: 'center', }}>
  
          {/* SECOND VIEW */}
-      <View style={{ transform: [{ translateY: 0 }], justifyContent: 'center', alignItems: 'center', flex: 1 }}>
+      <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
        <Button title='GET STICKER' onPress={() => { setVis(!vis) }} />
       </View>
       
