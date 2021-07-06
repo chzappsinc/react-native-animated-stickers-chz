@@ -8,8 +8,21 @@ Animated sticker keyboard for react-native with customizable sticker's
 
 ```
 npm install @react-native-async-storage/async-storage --save
-npm install lottie-react-native
-npm install lottie-ios
+npm install lottie-react-native --save
+npm install lottie-ios --save
+
+OR
+
+yarn add @react-native-async-storage/async-storage
+yarn add lottie-react-native
+yarn add lottie-ios
 
 ```
 :cool: **Now it's time to download react-native-animated-stickers-chz**
+
+```
+yarn add react-native-animated-stickers-chz
+or
+npm install react-native-animated-stickers-chz
+
+```
