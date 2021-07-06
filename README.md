@@ -76,19 +76,19 @@ so place the sticker keyboard on bottom , View chart for refernce
 
 ```
  ┌───────────────────────────────────┐
- │MAIN VIEW WITH FLEX 1 AND OTHER    │
- │STYLES                             │
+ │  MAIN VIEW WITH FLEX 1 AND OTHER  │
+ │  STYLES                           │
  └────────────────┬──────────────────┘
                   │
   ┌───────────────┴─────────────────┐
   │ SECOND VIEW WITH FLEX 1 AND     │
-  │  YOUR STYLE                     │
+  │  YOUR STYLE  INSIDE MAIN        │
   └──────────────┬──────────────────┘
                  │
                  ▼            
-        ┌───────────────────┐
-        │ KEYBOARD BOTTOM   │
-        └───────────────────┘
+   ┌────────────────────────────────┐
+   │ KEYBOARD AFTER  VIEW 2 BOTTOM  │
+   └────────────────────────────────┘
 ```
 
 **I know that you didn't get anything 😄 Check the code below for more!!**
@@ -112,10 +112,15 @@ const [vis, setVis] = useState(false)
   }
 
 return(
+ {/* MAIN VIEW */}
  <View style={{ backgroundColor: 'white', flex: 1, justifyContent: 'center', alignItems: 'center', }}>
+ 
+         {/* SECOND VIEW */}
       <View style={{ transform: [{ translateY: 0 }], justifyContent: 'center', alignItems: 'center', flex: 1 }}>
        <Button title='GET STICKER' onPress={() => { setVis(!vis) }} />
       </View>
+      
+       {/* KEYBOARD AFTER SECOND VIEW BOTTOM */}
       <AnimatedStickerKeyboard
         textButtonColor={'#000'}
         infoText={false}
@@ -207,6 +212,8 @@ setMessageState([...messageState , {id : 100 , message : message}])
 
 
 ## Sticker View
+
+Haha we succefully send sticker and we get uri which looks like `@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims`
 
 ## Sticker View on chat
 
