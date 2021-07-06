@@ -415,7 +415,7 @@ Cool you can create and upload your sticker
 
 example 
 
-```
+```json
 AnimatedSticker.setExtraCategory([
     {
       id: 101,
@@ -454,7 +454,7 @@ set extra emojis
 
 example : 
 
-```
+```json
 
  AnimatedSticker.setExtraEmojis([
     {
@@ -506,7 +506,7 @@ example :
 
 # Anim Ref
 
-***Dont use space in sticker name or category name use _ ***
+***Dont use space in sticker name or category name use _***
 
  **make sure that file size is not more then 100KB , Resolution: >= 512x512 if its not 512x512 keyboard may crash please always check your sticker**
  
