@@ -328,10 +328,10 @@ Here we used ternary operator which act like if else as ? :
 ## Other functions
 
 - #### [InitialApp](#IntialApp-1)
-- #### [isSticker](#isSticker)
-- #### [getName](#getName)
-- #### [setExtraCategory](#setExtraCategory)
-- #### [setExtraEmojis](#setExtraEmojis)
+- #### [isSticker](#issticker-1)
+- #### [getName](#getname-1)
+- #### [setExtraCategory](#setextracategory-1)
+- #### [setExtraEmojis](#setExtraEmojis-1)
 
 ## IntialApp 1
 
@@ -438,7 +438,7 @@ AnimatedSticker.setExtraCategory([
 
 ```
 
-| PROPS          | TYPE                                             | DES                                                                           |
+| NAME          | TYPE                                             | DES                                                                           |
 |----------------|--------------------------------------------------|-------------------------------------------------------------------------------|
 | ***id***       | number must start from 101                       | is your unique id and it must start from 101,102.....                         |
 | ***value***    | String not space need to use _ instated of space |  is your category name                                                        |
@@ -448,7 +448,9 @@ AnimatedSticker.setExtraCategory([
 | ***username*** | String / username - creator name                 | username of creator most probarly it's you 😅                                 |
 
 
- 
  **make sure that file size is not more then 100KB , Resolution: 512x512 if its not 512x512 keyboard may crash please always check your sticker**
+ 
+ Here take this as refernce : [animation](https://lottiefiles.com/59642-indian-premier-league-ipl) here when you scroll down you can see 
+ <img url='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/getLottieUrl.png' width='400'/>
  
 
