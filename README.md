@@ -33,3 +33,21 @@ To work properly please link assets
 
 | ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
+
+# STEP 2 - Initialazing on App
+
+Let our keyboard want's know your app name and if you use external sticker1
+So you need initialize the project by :
+
+```javascript
+import AnimatedSticker from 'react-native-animated-stickers-chz';
+
+ const StickerInit = {
+    app_name: 'MY SWEET APP',
+    use_external: true,
+    }
+    
+      AnimatedSticker.InitialApp(StickerInit)
+
+```
+😍 **Cool your app has been initialized
