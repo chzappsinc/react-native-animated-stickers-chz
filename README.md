@@ -25,4 +25,12 @@ yarn add react-native-animated-stickers-chz
 or
 npm install react-native-animated-stickers-chz
 
+npx react-native link react-native-animated-stickers-chz
+or
+yarn  react-native link react-native-animated-stickers-chz
+
+To link assets with project
+
 ```
+| :info:**INFO** : Run your projects to link these dependencies else error with show! |
+| --- |
