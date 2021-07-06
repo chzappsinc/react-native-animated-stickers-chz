@@ -3,6 +3,8 @@ Animated sticker keyboard for react-native with customizable sticker's
 
 🟢 **This dependency is under BETA**
 
+- [See here](#donate-us)
+
 |⚠️**WARNING** : Please follow all step's for proper install! |
 | --- |
 
@@ -526,3 +528,10 @@ files from [here](https://lottiefiles.com/)
 
 <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/check_resultion.png' width='400' alt='GET RES'/>
 
+# Donate us
+
+## Why to donate 
+
+Currently we are working on windows and we cant test on ios , we are making somany awsome free library for user!
+
+[Donate any amount](https://paypal.me/chzapps?locale.x=en_GB)
