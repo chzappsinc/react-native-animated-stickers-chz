@@ -173,7 +173,7 @@ Here ``if(vis)`` will check if keyboard is visible or not
 ### onSend ⚠️ read carefully
 
 When user click or swipe a stciker it need to updated in your chat or state!
-so this props ``ònSend`` will help us , this is a callbackFunction [More about callback function](url.com/NUj9tF)
+so this props ``ònSend`` will help us , this is a callbackFunction [More about callback function](http://url.com/NUj9tF)
 
 **Here is an example **
 
