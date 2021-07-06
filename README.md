@@ -87,10 +87,57 @@ so place the sticker keyboard on bottom , View chart for refernce
                  │
           ┌──────┴─────┐
           ▼            ▼
-┌──────────────┐    ┌─────────────┐
-│OTHER VIEW    │    │ KEYBOARD    │
-└──────────────┘    └─────────────┘
+┌──────────────┐    ┌───────────────────┐
+│OTHER VIEW    │    │ KEYBOARD BOTTOM   │
+└──────────────┘    └───────────────────┘
 ```
+
+**I know that you didn't get anything 😄 Check the code below for more!!**
+
+```js
+import React, { useState } from 'react';
+import {  View, BackHandler } from 'react-native';
+import AnimatedStickerKeyboard from 'react-native-animated-sticker-chz/AnimatedKeyBoard'
+
+const App = () => {
+const [vis, setVis] = useState(false)
+
+  const handleBackButtonClick = async () => {
+    if (vis) {
+      setVis(false)
+    } else {
+      BackHandler.exitApp()
+      //Other think when backPress on invisible keyboard
+      return true
+    }
+  }
+
+return(
+ <View style={{ backgroundColor: 'white', flex: 1, justifyContent: 'center', alignItems: 'center', }}>
+      <View style={{ transform: [{ translateY: 0 }], justifyContent: 'center', alignItems: 'center', flex: 1 }}>
+       <Button title='GET STICKER' onPress={() => { setVis(!vis) }} />
+      </View>
+      <AnimatedStickerKeyboard
+        textButtonColor={'#000'}
+        infoText={false}
+        visibility={vis}
+        onSend={(uri) => { console.log(uri) }}
+        keyBoardStyle={{ backgroundColor: '#fff' }}
+        menuButtonStyle={{ backgroundColor: '#00000010' }}
+        onBackPress={() => { handleBackButtonClick() }}
+        textColor={'black'}
+        hideDes={false}
+        hideFooter={true}
+        placeHolderColor={'#00000010'}
+      />
+    </View >
+)
+
+}
+export default App;
+
+```
+
 
 ## Sticker View
 
