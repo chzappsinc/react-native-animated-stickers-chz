@@ -74,32 +74,21 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 Sticker Keyboard need proper space to view 
 so place the sticker keyboard on bottom , View chart for refernce
 
-
-          ┌────────────────────────────────┐
-          │                                │
-          │            MAIN VIEW           │
-          │                FLEX 1          │
-          └───────────────┬────────────────┘
-                          │
-                          │
-                          │
-                          │
-         ┌────────────────┴─────────────────┐
-         │                                  │
-         │               INNER VIEW         │
-         │               FLEX 1             │
-         └───────────────┬──────────────────┘
-                         │
-                         │
-                         │
-           ┌─────────────┴─────────────┐
-           │                           │
-           │                           │
-┌──────────┴─────────┐     ┌───────────┴──────────┐
-│    OTHER           │     │      KEYBOARD VIEW   │
-│    VIEW            │     │    MUST BE IN BOTTOM │
-│                    │     │                      │
-└────────────────────┘     └──────────────────────┘
+ ┌───────────────────────────────────┐
+ │MAIN VIEW WITH FLEX 1 AND OTHER    │
+ │STYLES                             │
+ └────────────────┬──────────────────┘
+                  │
+  ┌───────────────┴─────────────────┐
+  │ SECOND VIEW WITH FLEX 1 AND     │
+  │  YOUR STYLE                     │
+  └──────────────┬──────────────────┘
+                 │
+          ┌──────┴─────┐
+          ▼            ▼
+┌──────────────┐    ┌─────────────┐
+│OTHER VIEW    │    │ KEYBOARD    │
+└──────────────┘    └─────────────┘
 
 ## Sticker View
 
