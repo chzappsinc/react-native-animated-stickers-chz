@@ -68,6 +68,7 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 - [Sticker View](#sticker-view)
 - [Sticker View on Chat](#sticker-view-on-chat)
 - [Check if it is valid sticker](#check-sticker)
+- [Other functions / Methods ](#other-functions) 
 
 ## Sticker Keyboard 
 
@@ -175,7 +176,13 @@ Here ``if(vis)`` will check if keyboard is visible or not
 When user click or swipe a stciker it need to updated in your chat or state!
 so this props ``ònSend`` will help us , this is a callbackFunction [More about callback function](http://url.com/NUj9tF)
 
-**Here is an example **
+**Here is an example**
+
+```js
+<AnimatedStickerKeyboard
+        onSend={(uri) => { sendMessage(uri) }}
+      />
+```
 
 here i will send message to state with arrow function
 
@@ -229,7 +236,7 @@ So we need to pass uri to sticker look the refernce below
           />
 
 ```
-here source props will convert if sticker uri is valid ... wait ! how can i check if it's valid or not 😰
+here source props will convert uri to sticker if sticker uri is valid ... wait ! how can i check if it's valid or not 😰
 
 That's why our hero is here 🦸‍♂️ `AnimatedSticker.isSticker()` will help us!
 
@@ -303,4 +310,14 @@ You can do with another method
 
 Here we used ternary operator which act like if else as ? : 
 
-## Check Sticker
+### Props for sticker view
+
+| PROPS         | REQUIRED / USAGE                                          | TYPE             | EXAMPLE                                                                                                                |
+|---------------|-----------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------|
+| stickerWidth  |  No / Default is 100 and can set max of your device width | Number           | stickerWidth={150}                                                                                                     |
+| stcikerHeight | No / Default is 100 and can set max of your device height | Number           | stickerHeight={150}                                                                                                    |
+| source        | Yes / Sticker uri                                         | chzapps type URI | source={'@chzapps/sticker/@render/_emoji_kiss.sticker.no.start.apps/auto/false/size=userPref,{render=true}/@data/ims'} |
+
+
+
+## Other functions
