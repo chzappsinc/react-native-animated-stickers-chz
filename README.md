@@ -62,10 +62,10 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 # Let's animate your chat 🤟
 
-- [Sticker Keyboard](sticker-keyboard)
-- [Sticker View](sticker-view)
-- [Sticker View on Chat](sticker-view-on-chat)
-- [Check if it is valid sticker](check-sticker)
+- [Sticker Keyboard](#sticker-keyboard)
+- [Sticker View](#sticker-view)
+- [Sticker View on Chat](#sticker-view-on-chat)
+- [Check if it is valid sticker](#check-sticker)
 
 ## Sticker Keyboard 
 
