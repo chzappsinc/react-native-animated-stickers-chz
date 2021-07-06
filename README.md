@@ -254,7 +254,6 @@ if (AnimatedSticker.isSticker(p)) {
       console.log('sticker' + AnimatedSticker.getName(p))
     } else {
       console.log('It\'s not a sticker!!')
-      setVim()
     }
 
 ```
