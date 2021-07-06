@@ -96,7 +96,7 @@ so place the sticker keyboard on bottom , View chart for refernce
 
 ```js
 import React, { useState } from 'react';
-import {  View, BackHandler } from 'react-native';
+import {  View, BackHandler, Button } from 'react-native';
 import AnimatedStickerKeyboard from 'react-native-animated-sticker-chz/AnimatedKeyBoard'
 
 const App = () => {
@@ -164,7 +164,7 @@ This props ``onBackPress`` will help us Hurr! 👁️‍🗨️
 ```
 Here ``if(vis)`` will check if keyboard is visible or not
 
-function work like if keyboard is visible or keyboard back press then update state to flase else do other think on backPress
+**_function work like if keyboard is visible or keyboard back press then update state to flase else do other think on backPress_**
 
 ## Sticker View
 
