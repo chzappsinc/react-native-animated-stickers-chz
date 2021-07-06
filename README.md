@@ -454,4 +454,6 @@ AnimatedSticker.setExtraCategory([
  
  <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/getLottieUrl.png' width='400' alt='GET URI'/>
  
+ In the below marked with red is resulation on animation and it's okay beacuse its 512x512 but yellow marked have good size but have 30 layer's it may take delay to render (may be)
 
+<img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/check_resultion.png' width='400' alt='GET RES'/>
