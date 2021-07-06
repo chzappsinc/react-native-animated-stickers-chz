@@ -47,7 +47,7 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
     use_external: true,
     }
     
-      AnimatedSticker.InitialApp(StickerInit)
+ AnimatedSticker.InitialApp(StickerInit)
 
 ```
-😍 **Cool your app has been initialized
+😍 **Cool your app has been initialized**
