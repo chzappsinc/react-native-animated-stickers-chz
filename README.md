@@ -46,15 +46,15 @@ To work properly please link assets
 
 # STEP 2 - Initializing on App
 
-Let our keyboard want's know your app name and if you use external sticker1
-So you need initialize the project by :
+Let our keyboard want's to know your app name and also if you use external sticker
+So you need initialize the keyboard in App.js or on your initial screen
 
 ```javascript
 import AnimatedSticker from 'react-native-animated-stickers-chz';
 
  const StickerInit = {
-    app_name: 'MY SWEET APP',
-    use_external: true,
+    app_name: 'MY SWEET APP', //--> Your app name that can tag on copyright text and many more place....
+    use_external: true, //--> false if your are not using custom sticker
     }
     
  AnimatedSticker.InitialApp(StickerInit)
@@ -62,7 +62,7 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 ```
 😍 **Cool your app has been initialized**
 
-# Let's animate your chat 🤟
+# Let's animate your chat 🤟 by chz sticker keybaord
 
 - [Sticker Keyboard](#sticker-keyboard)
 - [Sticker View](#sticker-view)
@@ -70,6 +70,17 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 - [Check if it is valid sticker](#check-sticker)
 
 ## Sticker Keyboard 
+
+Sticker Keyboard need proper space to view 
+so place the sticker keyboard on bottom , View chart for refernce
+
+| Main View with style flex 1  |
+            |
+            |
+| Second View inside Main view with flex 1  |
+            |
+            |
+| Keybaord View at bottom of second View  |
 
 ## Sticker View
 
