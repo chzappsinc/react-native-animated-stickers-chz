@@ -66,6 +66,8 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 # Let's animate your chat 🤟 by chz sticker keybaord
 
+
+- [Import Dep](#import)
 - [Sticker Keyboard](#sticker-keyboard)
 - [Sticker View](#sticker-view)
 - [Sticker View on Chat](#sticker-view-on-chat)
@@ -77,6 +79,16 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 - [add your custom catogery 💌](#setextracategory-1)
 - [add your custom Sticker 🌼](#setextraemojis-1)
 - [Create custom sticker refernce](#anim-ref)
+
+------------------
+
+# Import
+
+```
+import AnimatedSticker from 'react-native-animated-stickers-chz';
+import AnimatedStickerKeyboard from 'react-native-animated-stickers-chz/AnimatedKeyBoard'
+import AnimatedStickerView from 'react-native-animated-stickers-chz/AnimatedStickerView';
+```
 
 ## Sticker Keyboard 
 
