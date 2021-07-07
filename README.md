@@ -1,6 +1,12 @@
 # CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
 
+
+|⚛ **UPDATE** : We are fixing dialog bug on release ASAP!!|
+| --- |
+
+
+
 | IMAGE 1 | IMAGE 2 | IMAGE 2 HIGH RES |
 |---------|---------|------------------|
 | <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/type1.gif'  height='400' alt='example1'/>| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/typ2.gif'  height='400' alt='example2'/>| <img src='https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/images/care.gif' height='400' alt='example3 high'/>|
