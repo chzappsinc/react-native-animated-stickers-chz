@@ -13,47 +13,34 @@ Find the docs [here](http://example.com/).
 </div>
 
 ------
-### V1.0.0-beta--0.4 
-
-| :memo:        | deprecated              |
-|---------------|:------------------------|
-
+### V1.0.0-beta--0.4  `deprecated`
 - Updated UI
 
 ----------------------------------------------------------------
-### V1.0.0-beta--0.5
-
-| :memo:        | deprecated              |
-|---------------|:------------------------|
+### V1.0.0-beta--0.5  `deprecated`
 
 - Updated UI
 - Updated StickerView
 
 
 ----------------------------------------------------------------
-### V1.0.0-beta--0.4
-
-| :memo:        | deprecated              |
-|---------------|:------------------------|
+### V1.0.0-beta--0.4  `deprecated`
 
 - Updated UI
+
+
 ----------------------------------------------------------------
-### V1.0.0-beta--0.3
+### V1.0.0-beta--0.3  `deprecated`
 
 | 😄 **FIXED ALL BUG** |
 | --- |
-
-| :memo:        | deprecated              |
-|---------------|:------------------------|
 
 - Fixed all known bug
 - Fixed sticker issue
 
 ----------------------------------------------------------------
-### V1.0.1-beta--0.2
+### V1.0.1-beta--0.2  `deprecated`
 
-| :memo:        | deprecated              |
-|---------------|:------------------------|
 
 - Updated Dailog issue on android and ios
 - Updated sticker render issue
@@ -62,12 +49,9 @@ Find the docs [here](http://example.com/).
 
 ----------------------------------------------------------------
 
-### V1.0.1-beta--0.2
+### V1.0.1-beta--0.1  `deprecated`
 
-| :memo:        | deprecated              |
-|---------------|:------------------------|
 
 - Initial release
-
 
 ----------------------------------------------------------------
