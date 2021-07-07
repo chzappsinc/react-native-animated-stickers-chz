@@ -4,7 +4,7 @@ Animated sticker keyboard for react-native with customizable sticker's
 
 | IMAGE 1 | IMAGE 2 | IMAGE 2 HIGH RES |
 |---------|---------|------------------|
-| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/type1.gif'  height='400' alt='example1'/>| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/typ2.gif'  height='400' alt='example2'/>| <img src='https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/images/care.gif' height='400' alt='example3 high'/>|
+| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/type1.gif'  height='400' width='200' alt='example1'/>| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/typ2.gif'  height='400' width='200' alt='example2'/>| <img src='https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/images/care.gif' height='400' width='200' alt='example3 high'/>|
 
 ###### Image show above may different from current version please refer [#changelog](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
