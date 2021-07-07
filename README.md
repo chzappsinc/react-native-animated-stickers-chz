@@ -2,7 +2,7 @@
 Animated sticker keyboard for react-native with customizable sticker's
 
 
-|⚛ **UPDATE** : We are fixing dialog bug on release ASAP!!|
+|⚛ **UPDATE** : We are fixing dialog bug on next release ASAP!!|
 | --- |
 
 
