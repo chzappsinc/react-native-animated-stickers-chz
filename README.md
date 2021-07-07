@@ -16,7 +16,7 @@ Animated sticker keyboard for react-native with customizable sticker's
 
 ## STEP 1 - install these dependencies
 
-```js
+```
 npm install @react-native-async-storage/async-storage --save
 npm install lottie-react-native --save
 npm install lottie-ios --save
@@ -34,14 +34,14 @@ yarn add lottie-ios
 --------------------------------
 
 If you are using this library for **IOS** then 
-go to ios folder by running ```js cd ios ``` on terminal of your project
-then run this command ```js pod install```
+go to ios folder by running ``` cd ios ``` on terminal of your project
+then run this command ``` pod install```
 
 -------------------------------------
 
 💃 **Now it's time to download react-native-animated-stickers-chz**
 
-```js
+```
 yarn add react-native-animated-stickers-chz
 
 OR
