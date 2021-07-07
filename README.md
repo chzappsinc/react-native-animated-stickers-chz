@@ -44,13 +44,16 @@ then run this command ``` pod install```
 ```
 yarn add react-native-animated-stickers-chz
 
+yarn react-native link react-native-animated-stickers-chz
+
 OR
 
 npm install react-native-animated-stickers-chz
-```
-**Link assets** : ```npx react-native link react-native-animated-stickers-chz```
 
-To work properly please link assets
+npx react-native link react-native-animated-stickers-chz
+```
+
+To work properly please link assets by ```npx react-native link react-native-animated-stickers-chz```
 
 -----------------------------------
 
@@ -61,8 +64,8 @@ To work properly please link assets
 
 # STEP 2 - Initializing on App
 
-Our keyboard want's to know our app name and also if we use external sticker
-So you need initialize the keyboard in App.js or on your initial screen
+**Our keyboard want's to know our app name and also if we use external sticker
+So we need initialize the keyboard in App.js or on your initial screen**
 
 ```javascript
 import AnimatedSticker from 'react-native-animated-stickers-chz';
