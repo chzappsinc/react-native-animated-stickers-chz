@@ -8,7 +8,7 @@
 
 
 **NOTE:**
-Find the docs [here](http://example.com/).
+Find the docs [here](/README.md).
 
 </div>
 
