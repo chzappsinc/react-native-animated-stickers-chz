@@ -12,7 +12,7 @@ Find the docs [here](/README.md).
 
 ## Change Log
 
-#### V1.0.0-beta--0.6  `deprecated`
+#### V1.0.0-beta--0.6 
 - Updated UI
 - ***setExtraSubCategory*** has been `deprecated` new effected will be publish on next version
 
