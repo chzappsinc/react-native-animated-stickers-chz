@@ -601,4 +601,4 @@ Currently we are working on windows and we cant test on ios , we are making soma
 
 [Donate Paypal](https://paypal.me/chzapps)
 
-
+<img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/files/Items/R/trans.png' alt='Total payment'/>
