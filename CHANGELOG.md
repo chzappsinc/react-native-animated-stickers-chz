@@ -5,6 +5,29 @@
 |⚛ **UPDATE** : From up coming  version user need to import all view from 'react-native-animated-stickers-chz'|
 | --- |
 
+<div class="warning">
+
+**NOTE:**
+Find the docs [here](http://example.com/).
+
+</div>
+
+----------------------------------------------------------------
+### V1.0.0-beta--0.4
+
+- Updated UI
+
+----------------------------------------------------------------
+### V1.0.0-beta--0.5
+
+- Updated UI
+- Updated StickerView
+
+
+----------------------------------------------------------------
+### V1.0.0-beta--0.4
+
+- Updated UI
 ----------------------------------------------------------------
 ### V1.0.0-beta--0.3
 
