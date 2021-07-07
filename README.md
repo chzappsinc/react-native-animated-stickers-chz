@@ -1,6 +1,8 @@
 ## CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
 
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HVqY2odLILOdTp/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
+
 
 | IMAGE 1 | IMAGE 2 | IMAGE 2 HIGH RES |
 |---------|---------|------------------|
