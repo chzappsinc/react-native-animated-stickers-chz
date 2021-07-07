@@ -8,7 +8,7 @@ Animated sticker keyboard for react-native with customizable sticker's
 
 ###### Image show above may different from current version please refer [#changelog](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
-🟢 **This dependency is under BETA**
+🟢 **FIRST TIME IN REACT-NATIVE**
 
 - [See here](#donate-us)
 - [Change log](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
