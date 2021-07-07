@@ -2,10 +2,10 @@
 
 #### [Change Log Beta](#change-log-beta-1)
 
-|⚛ **UPDATE** : From up coming  version user need to import all view from 'react-native-animated-stickers-chz'|
+|**UPDATE** : From up coming  version user need to import all view from 'react-native-animated-stickers-chz'|
 | --- |
 
-|⚛ **UPDATE** : ***setExtraSubCategory*** has been `deprecated`|
+| ℹ️ **INFO** : ***setExtraSubCategory*** has been `deprecated`|
 | --- |
 
 **NOTE:**
