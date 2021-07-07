@@ -15,7 +15,7 @@ Find the docs [here](/README.md).
 ------
 ### V1.0.0-beta--0.6  `deprecated`
 - Updated UI
-- setExtraSubCategory has been `deprecated`
+- ***setExtraSubCategory*** has been `deprecated`
 
 ----------------------------------------------------------------
 ### V1.0.0-beta--0.5  `deprecated`
