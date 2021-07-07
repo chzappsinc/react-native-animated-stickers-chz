@@ -242,21 +242,21 @@ setMessageState([...messageState , {id : 100 , message : message}])
 ```
 ### PROPS
 
-| PROPS NAME       | REQUIRED / USAGE                                  | TYPE                   | EXAMPLE                                            |
-|------------------|---------------------------------------------------|------------------------|----------------------------------------------------|
-| textButtonColor  | No / For Category button color                    | String / color         | textButtonColor={'#000'}                           |
-| infoText         | No / show info of Category [Deprecated]           | Boolean                | infoText={false}                                   |
-| visibility       | Yes / show & hide of keyboard                     | Boolean                | visibility={true}                                  |
-| onSend           | Yes / get Uri and data of sticker                 | callback function      | onSend={(uri,data) => { console.log(uri,data)}}    |
-| keyBoardStyle    | No / set style of keyboard like background color  | ViewStyleProp / styles | keyBoardStyle={{ backgroundColor: '#fff' }}        |
-| menuButtonStyle  | No / Category menu button style                   | ViewStyleProp / styles | menuButtonStyle={{ backgroundColor: '#00000010' }} |
-| onBackPress      | Yes / What to do onBackPress                      | function               | onBackPress={() => { handleBackButtonClick() }}    |
-| textColor        | No / Text color of description and Category name  | string / color         | textColor={'#fff'}                                 |
-| hideDes          | No / Hide keyboard Category  description          | Boolean                | hideDes={false}                                    |
-| hideFooter       | No / Hide footer of keyboard branding             | Boolean                | hideFooter={false}                                 |
-| placeHolderColor | No / Color of before sticker render               | String / color         | placeHolderColor={'#00000010'}                     |
-| textFont         | No / Replace font                                 | FontFamily             | textFont={'MyFontName'}                            |
-| onDo             | Deprecated                                        | Deprecated             | Deprecated                                         |
+| PROPS NAME       | REQUIRED / USAGE                                  | TYPE                   | 
+|------------------|---------------------------------------------------|------------------------|
+| textButtonColor  | No / For Category button color                    | String / color         | 
+| infoText         | No / show info of Category [Deprecated]           | Boolean                | 
+| visibility       | Yes / show & hide of keyboard                     | Boolean                | 
+| onSend           | Yes / get Uri and data of sticker                 | callback function      | 
+| keyBoardStyle    | No / set style of keyboard like background color  | ViewStyleProp / styles | 
+| menuButtonStyle  | No / Category menu button style                   | ViewStyleProp / styles | 
+| onBackPress      | Yes / What to do onBackPress                      | function               | 
+| textColor        | No / Text color of description and Category name  | string / color         | 
+| hideDes          | No / Hide keyboard Category  description          | Boolean                | 
+| hideFooter       | No / Hide footer of keyboard branding             | Boolean                | 
+| placeHolderColor | No / Color of before sticker render               | String / color         | 
+| textFont         | No / Replace font                                 | FontFamily             | 
+| onDo             | Deprecated                                        | Deprecated             | 
 
 -----------------------------------------
 
