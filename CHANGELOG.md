@@ -1,8 +1,5 @@
 # CHANGE LOG
 
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/chzappsinc/react-native-animation-stickers-chz/issues" data-icon="octicon-issue-opened" aria-label="Issue chzappsinc/react-native-animation-stickers-chz on GitHub">Issue</a>
-
 #### [Change Log Beta](#change-log-beta-1)
 
 |**UPDATE** : From up coming  version user need to import all view from 'react-native-animated-stickers-chz'|
