@@ -1,7 +1,7 @@
 ## CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://pages.razorpay.com/pl_HVqY2odLILOdTp/view" data-icon="octicon-heart" aria-label="Sponsor @chzappsinc on RazorPay">Sponsor</a>
+<a class="github-button" href="https://pages.razorpay.com/pl_HVqY2odLILOdTp/view" data-icon="octicon-heart" aria-label="Sponsor @chzappsinc on Github">Sponsor</a>
 
 | IMAGE 1 | IMAGE 2 | IMAGE 2 HIGH RES |
 |---------|---------|------------------|
