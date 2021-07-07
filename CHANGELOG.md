@@ -3,7 +3,7 @@
 |⚛ **UPDATE** : From up coming  version user need to import all view from 'react-native-animated-stickers-chz'|
 | --- |
 
-|⚛ **UPDATE** : ***setExtraSubCategory*** has been `deprecated` '|
+|⚛ **UPDATE** : ***setExtraSubCategory*** has been `deprecated`|
 | --- |
 
 **NOTE:**
