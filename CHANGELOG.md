@@ -1,4 +1,6 @@
-### [Change Log](#change-log-beta)
+# CHANGE LOG
+
+#### [Change Log Beta](#change-log-beta)
 
 |⚛ **UPDATE** : From up coming  version user need to import all view from 'react-native-animated-stickers-chz'|
 | --- |
