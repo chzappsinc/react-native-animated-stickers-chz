@@ -598,7 +598,7 @@ files from [here](https://lottiefiles.com/)
 
 ## Why to donate 
 
-Currently we are working on windows and we cant test on ios , we are making somany awsome free library for user!
+Support our developers to make it possible
 
 [Donate UPI/GPAY/PHONEPE/ANY PAYMENT INDIA](https://rzp.io/l/chzapps)
 
