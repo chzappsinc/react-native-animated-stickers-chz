@@ -2,11 +2,6 @@
 Animated sticker keyboard for react-native with customizable sticker's
 
 
-|⚛ **UPDATE** : We are fixing dialog bug on next release ASAP!!|
-| --- |
-
-
-
 | IMAGE 1 | IMAGE 2 | IMAGE 2 HIGH RES |
 |---------|---------|------------------|
 | <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/type1.gif'  height='400' alt='example1'/>| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/typ2.gif'  height='400' alt='example2'/>| <img src='https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/images/care.gif' height='400' alt='example3 high'/>|
@@ -14,13 +9,10 @@ Animated sticker keyboard for react-native with customizable sticker's
 🟢 **This dependency is under BETA**
 
 - [See here](#donate-us)
+- [Change log](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
 |⚠️**WARNING** : Please follow all step's for proper install! |
 | --- |
-
-| ℹ️**INFO** : Files may take sometime to render beacuse to avoid download everytime , we are using cache sytem and we will fix issue on up coming versions , This issue is not for all devices please submit an issue if you face any|
-| --- |
-
 
 ## STEP 1 - install these dependencies
 
@@ -36,8 +28,11 @@ yarn add lottie-react-native
 yarn add lottie-ios
 
 ```
+
+
 ## 🔊 IOS USERS LISTEN HERE 
 --------------------------------
+
 If you are using this library for **IOS** then 
 go to ios folder by running ``` cd ios ``` on terminal of your project
 then run this command ```pod install```
@@ -57,13 +52,16 @@ npm install react-native-animated-stickers-chz
 
 To work properly please link assets
 
+-----------------------------------
+
 | ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
+
 -----------------------------
 
 # STEP 2 - Initializing on App
 
-Let our keyboard want's to know your app name and also if you use external sticker
+Our keyboard want's to know our app name and also if we use external sticker
 So you need initialize the keyboard in App.js or on your initial screen
 
 ```javascript
@@ -78,6 +76,8 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 ```
 😍 **Cool your app has been initialized**
+
+--------------------------------------
 
 # Let's animate your chat 🤟 by chz sticker keybaord
 
@@ -586,7 +586,6 @@ files from [here](https://lottiefiles.com/)
 
 ----------------------------------------------------------------
 
-
 # Donate us
 
 ## Why to donate 
@@ -596,3 +595,5 @@ Currently we are working on windows and we cant test on ios , we are making soma
 [Donate UPI/GPAY/PHONEPE/ANY PAYMENT INDIA](https://rzp.io/l/chzapps)
 
 [Donate Paypal](https://paypal.me/chzapps)
+
+
