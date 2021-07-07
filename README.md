@@ -577,7 +577,7 @@ example :
 
 files from [here](https://lottiefiles.com/)
 
-***Dont use space in sticker name or category name use _***
+***Dont use space in sticker name or category name use underscore _***
 
  **make sure that file size is not more then 100KB , Resolution: >= 512x512 if its not 512x512 keyboard may crash please always check your sticker**
  
