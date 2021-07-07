@@ -1,4 +1,4 @@
-# CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
+## CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
 
 
