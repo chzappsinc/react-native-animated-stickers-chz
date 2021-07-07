@@ -593,4 +593,6 @@ files from [here](https://lottiefiles.com/)
 
 Currently we are working on windows and we cant test on ios , we are making somany awsome free library for user!
 
-[Donate any amount](https://paypal.me/chzapps)
+[Donate UPI/GPAY/PHONEPE/ANY PAYMENT INDIA](https://rzp.io/l/chzapps)
+
+[Donate Paypal](https://paypal.me/chzapps)
