@@ -2,8 +2,17 @@
 
 
 
-|⚛ **UPDATE** : Fixed Dailog issue on android |
+|⚛ **UPDATE** : From up coming  version user need to import all view from 'react-native-animated-sticker'|
 | --- |
+
+----------------------------------------------------------------
+### V1.0.0-beta--0.3
+
+|⚛ **FIXED ALL BUG** |
+| --- |
+
+- Fixed all known bug
+- Fixed sticker issue
 
 ----------------------------------------------------------------
 ### V1.0.1-beta--0.2
