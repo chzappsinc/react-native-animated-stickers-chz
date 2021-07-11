@@ -14,6 +14,18 @@ Find the docs [here](/README.md).
 
 # Change Log BETA
 
+#### V1.0.0-beta--0.10 `Latest`
+- Updated UI
+- Added new files
+
+---------
+
+
+#### V1.0.0-beta--0.9  
+- Updated UI
+- *Changed log files*
+
+---------
 
 #### V1.0.0-beta--0.8
 - Updated UI
