@@ -16,6 +16,7 @@ Find the docs [here](/README.md).
 
 #### V1.0.0-beta--0.10 `Latest`
 - Updated UI
+- CNG - BDYMWN
 
 ---------
 
