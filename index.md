@@ -1,26 +1,23 @@
-# CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
+## CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 Animated sticker keyboard for react-native with customizable sticker's
-
-
-|⚛ **UPDATE** : We are fixing dialog bug on release ASAP!!|
-| --- |
-
-
+<!-- Place this tag where you want the button to render. -->
 
 | IMAGE 1 | IMAGE 2 | IMAGE 2 HIGH RES |
 |---------|---------|------------------|
-| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/type1.gif'  height='400' alt='example1'/>| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/typ2.gif'  height='400' alt='example2'/>| <img src='https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/images/care.gif' height='400' alt='example3 high'/>|
+| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/type1.gif'  height='400' width='200' alt='example1'/>| <img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/images/typ2.gif'  height='400' width='200' alt='example2'/>| <img src='https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/images/care.gif' height='400' width='200' alt='example3 high'/>|
 
-🟢 **This dependency is under BETA**
+
+
+###### Image show above may different from current version please refer [#changelog](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
+
+
+🥇 **FIRST TIME IN REACT-NATIVE**
 
 - [See here](#donate-us)
+- [Change log](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
 |⚠️**WARNING** : Please follow all step's for proper install! |
 | --- |
-
-| ℹ️**INFO** : Files may take sometime to render beacuse to avoid download everytime , we are using cache sytem and we will fix issue on up coming versions , This issue is not for all devices please submit an issue if you face any|
-| --- |
-
 
 ## STEP 1 - install these dependencies
 
@@ -36,11 +33,14 @@ yarn add lottie-react-native
 yarn add lottie-ios
 
 ```
+
+
 ## 🔊 IOS USERS LISTEN HERE 
 --------------------------------
+
 If you are using this library for **IOS** then 
 go to ios folder by running ``` cd ios ``` on terminal of your project
-then run this command ```pod install```
+then run this command ``` pod install```
 
 -------------------------------------
 
@@ -49,22 +49,28 @@ then run this command ```pod install```
 ```
 yarn add react-native-animated-stickers-chz
 
+yarn react-native link react-native-animated-stickers-chz
+
 OR
 
 npm install react-native-animated-stickers-chz
-```
-**Link assets** : ```npx react-native link react-native-animated-stickers-chz```
 
-To work properly please link assets
+npx react-native link react-native-animated-stickers-chz
+```
+
+To work properly please link assets by ```npx react-native link react-native-animated-stickers-chz```
+
+-----------------------------------
 
 | ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
 | --- |
+
 -----------------------------
 
 # STEP 2 - Initializing on App
 
-Let our keyboard want's to know your app name and also if you use external sticker
-So you need initialize the keyboard in App.js or on your initial screen
+**Our keyboard want's to know our app name and also if we use external sticker
+So we need initialize the keyboard in App.js or on your initial screen**
 
 ```javascript
 import AnimatedSticker from 'react-native-animated-stickers-chz';
@@ -78,6 +84,8 @@ import AnimatedSticker from 'react-native-animated-stickers-chz';
 
 ```
 😍 **Cool your app has been initialized**
+
+--------------------------------------
 
 # Let's animate your chat 🤟 by chz sticker keybaord
 
@@ -242,21 +250,21 @@ setMessageState([...messageState , {id : 100 , message : message}])
 ```
 ### PROPS
 
-| PROPS NAME       | REQUIRED / USAGE                                  | TYPE                   | EXAMPLE                                            |
-|------------------|---------------------------------------------------|------------------------|----------------------------------------------------|
-| textButtonColor  | No / For Category button color                    | String / color         | textButtonColor={'#000'}                           |
-| infoText         | No / show info of Category [Deprecated]           | Boolean                | infoText={false}                                   |
-| visibility       | Yes / show & hide of keyboard                     | Boolean                | visibility={true}                                  |
-| onSend           | Yes / get Uri and data of sticker                 | callback function      | onSend={(uri,data) => { console.log(uri,data)}}    |
-| keyBoardStyle    | No / set style of keyboard like background color  | ViewStyleProp / styles | keyBoardStyle={{ backgroundColor: '#fff' }}        |
-| menuButtonStyle  | No / Category menu button style                   | ViewStyleProp / styles | menuButtonStyle={{ backgroundColor: '#00000010' }} |
-| onBackPress      | Yes / What to do onBackPress                      | function               | onBackPress={() => { handleBackButtonClick() }}    |
-| textColor        | No / Text color of description and Category name  | string / color         | textColor={'#fff'}                                 |
-| hideDes          | No / Hide keyboard Category  description          | Boolean                | hideDes={false}                                    |
-| hideFooter       | No / Hide footer of keyboard branding             | Boolean                | hideFooter={false}                                 |
-| placeHolderColor | No / Color of before sticker render               | String / color         | placeHolderColor={'#00000010'}                     |
-| textFont         | No / Replace font                                 | FontFamily             | textFont={'MyFontName'}                            |
-| onDo             | Deprecated                                        | Deprecated             | Deprecated                                         |
+| PROPS NAME       | REQUIRED / USAGE                                  | TYPE                   | 
+|------------------|---------------------------------------------------|------------------------|
+| textButtonColor  | No / For Category button color                    | String / color         | 
+| infoText         | No / show info of Category [Deprecated]           | Boolean                | 
+| visibility       | Yes / show & hide of keyboard                     | Boolean                | 
+| onSend           | Yes / get Uri and data of sticker                 | callback function      | 
+| keyBoardStyle    | No / set style of keyboard like background color  | ViewStyleProp / styles | 
+| menuButtonStyle  | No / Category menu button style                   | ViewStyleProp / styles | 
+| onBackPress      | Yes / What to do onBackPress                      | function               | 
+| textColor        | No / Text color of description and Category name  | string / color         | 
+| hideDes          | No / Hide keyboard Category  description          | Boolean                | 
+| hideFooter       | No / Hide footer of keyboard branding             | Boolean                | 
+| placeHolderColor | No / Color of before sticker render               | String / color         | 
+| textFont         | No / Replace font                                 | FontFamily             | 
+| onDo             | Deprecated                                        | Deprecated             | 
 
 -----------------------------------------
 
@@ -572,7 +580,7 @@ example :
 
 files from [here](https://lottiefiles.com/)
 
-***Dont use space in sticker name or category name use _***
+***Dont use space in sticker name or category name use underscore _***
 
  **make sure that file size is not more then 100KB , Resolution: >= 512x512 if its not 512x512 keyboard may crash please always check your sticker**
  
@@ -586,11 +594,14 @@ files from [here](https://lottiefiles.com/)
 
 ----------------------------------------------------------------
 
-
 # Donate us
 
 ## Why to donate 
 
-Currently we are working on windows and we cant test on ios , we are making somany awsome free library for user!
+Support our developers to make it possible
 
-[Donate any amount](https://paypal.me/chzapps)
+[Donate UPI/GPAY/PHONEPE/ANY PAYMENT INDIA](https://rzp.io/l/chzapps)
+
+[Donate Paypal](https://paypal.me/chzapps)
+
+<img src='https://raw.githubusercontent.com/chzappsinc/react-native-animated-stickers-chz/main/files/Items/R/trans.png' alt='Total payment'/>
