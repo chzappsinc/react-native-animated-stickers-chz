@@ -16,8 +16,7 @@ Animated sticker keyboard for react-native with customizable sticker's
 - [See here](#donate-us)
 - [Change log](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
-|⚠️**WARNING** : Please follow all step's for proper install! |
-| --- |
+⚠️**WARNING** : Please follow all step's for proper install! 
 
 ## STEP 1 - install these dependencies
 
@@ -62,8 +61,7 @@ To work properly please link assets by ```npx react-native link react-native-ani
 
 -----------------------------------
 
-| ℹ️ **INFO** : Run your projects to link these dependencies else error with show! |
-| --- |
+ℹ️ **INFO** : Run your projects to link these dependencies else error with show! 
 
 -----------------------------
 
