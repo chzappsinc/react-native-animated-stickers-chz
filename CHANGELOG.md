@@ -11,10 +11,19 @@
 **NOTE:**
 Find the docs [here](/README.md).
 
+# Change Log 
+
+#### V1.0.1 `Latest`
+- Updated UI
+
+---------
+
+
+--------------------------------------------------------------------------------
 
 # Change Log BETA
 
-#### V1.0.0-beta--0.10 `Latest`
+#### V1.0.0-beta--0.10 `Latest BETA`
 - Updated UI
 - CNG - BDYMWN
 
