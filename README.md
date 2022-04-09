@@ -316,7 +316,7 @@ you need to **import** AnimatedSticker like : ``import AnimatedSticker from 'rea
 
 ## Sticker View on chat
 
-**Now implement sticker view on chet  **
+**Now implement sticker view on chat  **
 
 |⚠️**WARNING** : Please Read carefully! |
 | --- |
