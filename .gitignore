@@ -10,6 +10,8 @@ permission.txt
 react-native-config.js
 lic.txt
 *.yml
+Dockerfile
+
 
 
 # README.md
