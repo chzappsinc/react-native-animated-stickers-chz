@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  reactnativeanimatedsticker:
+    image: reactnativeanimatedsticker
+    build:
+      context: .
+      dockerfile: ./Dockerfile

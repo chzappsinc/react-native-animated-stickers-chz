@@ -1,4 +1,5 @@
 ## CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
+
 Animated sticker keyboard for react-native with customizable sticker's
 <!-- Place this tag where you want the button to render. -->
 
@@ -10,10 +11,12 @@ Animated sticker keyboard for react-native with customizable sticker's
 
 ###### Image show above may different from current version please refer [#changelog](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
+## READ UPDATED DOCUMENT [HERE](https://chzappsinc.github.io/react-native-animated-stickers-chz/)
+
 
 🥇 **FIRST TIME IN REACT-NATIVE**
 
-- [See here](#donate-us)
+- [Donate here](#donate-us)
 - [Change log](https://github.com/chzappsinc/react-native-animated-stickers-chz/blob/main/CHANGELOG.md)
 
 |⚠️**WARNING** : Please follow all step's for proper install! |
@@ -316,7 +319,7 @@ you need to **import** AnimatedSticker like : ``import AnimatedSticker from 'rea
 
 ## Sticker View on chat
 
-**Now implement sticker view on chat  **
+**Now implement sticker view on chet  **
 
 |⚠️**WARNING** : Please Read carefully! |
 | --- |
