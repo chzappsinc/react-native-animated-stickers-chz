@@ -3,6 +3,15 @@
 #
 .DS_Store
 
+#
+package.json
+note
+permission.txt
+react-native-config.js
+lic.txt
+*.yml
+
+
 README.md
 # node.js
 #
