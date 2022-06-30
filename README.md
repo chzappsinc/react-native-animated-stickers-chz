@@ -1,5 +1,5 @@
 
-#Animated Sticker V2 with full docs coming soon :love:
+# Animated Sticker V2 with full docs coming soon
 
 ## CHZ STICKER ANIMATED KEYBOARD FOR REACT NATIVE
 
